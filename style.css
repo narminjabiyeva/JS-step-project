@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-image: url("Step Project Ham/Sections background/section-1(header).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.top-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(32,32,32,0.5);
+    height: 120px;
+}
+.ham{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    align-self: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ham h1{
+    align-self: center;
+    padding-left: 10px;
+}
+.ham span{
+    color: #18cfab;
+}
+.hexagon1 {
+    width: 0;
+    border-bottom: 15px solid #18cfab;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+}
+.hexagon2{
+    width: 54px;
+    height: 35px;
+    background-color: #18cfab;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.hexagon3{
+    width: 0;
+    border-top: 15px solid #18cfab;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+}
+
+.top-nav-tabs{
+    display: flex;
+    flex-direction: row;
+
+}
+.top-nav-tabs a{
+    font-size: 12px;
+    color: white;
+    padding: 50px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: content-box;
+}
+.top-nav-tabs a:hover{
+    color: #18cfab;
+    border-bottom: 1px solid #18cfab;
+}
+.top-nav-tabs img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin: 10px;
+}
+.slogan{
+    text-align: center;
+    margin-top: 100px;
+}
+.slogan h3{
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.slogan span{
+    color: #18cfab;
+}
+.slogan h2{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.slogan p{
+    color: white;
+    font-size: 30px;
+    color: rgba(212, 212, 212, 255);
+
+}
+.header-buttons{
+    text-align: center;
+}
+.button{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    width: 165px;
+    height: 60px;
+    text-decoration: none;
+    border-top: 3px solid white;
+    border-radius: 4px;
+    font-size: 13px;
+    margin: 100px 10px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.green{
+    background-color: #18cfab;
+}
+.blue{
+    background-color: #00cbf6;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+}
+.opt{
+    width: 25%;
+    height: 350px;
+    text-transform:uppercase;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1c2a33;
+    color: #18cfab;
+    border-top: 5px solid #18cfab;
+}
+.opt:nth-child(even)
+{
+    background-color: #18cfab;
+    color: white;
+    border-top: 5px solid white;
+}
+
+.services{
+    height: 550px;
+}
+.tab-header{
+     font-size: 36px;
+     color: rgba(78, 78, 78, 255);
+     text-align: center;
+    padding: 70px;
+    position: relative;
+ }
+.tab-header::after{
+    content: '';
+    width: 85px;
+    position: absolute;
+    height: 4px;
+    border-top: 1px solid #18cfab;
+    border-bottom: 1px solid #18cfab;
+    transform: skew(66deg);
+    top: 135px;
+    left: 725px;
+}
+.services-container{
+    width: 70%;
+    margin: 0 auto;
+}
+.services-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+
+}
+.services-tab-link{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(113, 113, 113, 255);
+    text-align: center;
+    border: 1px solid lightgray;
+    background-color: #f8fcfe;
+    padding: 20px 38px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.services-tab-link:hover{
+    color: white;
+    background-color: #18cfab;
+    border-color: #18cfab;
+}
+.active{
+    color: white;
+    background-color: #18cfab;
+    border-color: #18cfab;
+    position: relative;
+}
+.active::after{
+    content: '';
+    position: absolute;
+    top: 59px;
+    left: 63px;
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 13px solid #18cfab;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+}
+.content-text{
+    align-self: center;
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgba(119, 119, 119, 255);
+    text-align: justify;
+    line-height: 1.5;
+
+}
+.content-img{
+    align-self: center;
+}
+.purchase{
+    height: 470px;
+    background: linear-gradient(to top ,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url("Step Project Ham/Sections background/section-2.jpg") center;
+    display: flex;
+    flex-direction: column;justify-content: center;
+}
+.purchase h3{
+    font-size: 39px;
+    color: rgba(24, 207, 171, 255);
+    align-self: center;
+    margin: 30px;
+    text-transform: uppercase;
+}
+.purchase p{
+    font-size: 16px;
+    color: rgba(216, 216, 216, 255);
+    text-align: center;
+}
+.purchase a{
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    width: 165px;
+    height: 60px;
+    text-decoration: none;
+    border-top: 3px solid white;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 20px;
+    text-transform: uppercase;
+    margin: 60px;
+}
+
+.gallery-section{
+    background-color: #f8fcfe;
+    padding-bottom: 80px;
+}
+.gallery{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery-tabs{
+    display: flex;
+    flex-direction: row;align-items: center;
+    justify-content: center;
+}
+.gallery-link{
+    font-size: 14px;
+    color: #717171;
+    text-align: left;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 20px;
+    box-sizing: content-box;
+    list-style-type: none;
+    cursor: pointer;
+}
+.gallery-link:hover{
+    color: #18cfab;
+    border-top: 2px solid #18cfab;
+    padding-top: 19px;
+
+}
+.gallery-hover-active{
+    color: #18cfab;
+    border-top: 2px solid #18cfab;
+    padding-top: 19px;
+
+}
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.gallery-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.image-wrap{
+    height: 220px;
+    width: 25%;
+    position: relative;
+}
+.gallery-img{
+     width: 100%;
+    height: 100%;
+ }
+.gallery-hover {
+    background-color: #f8fcfe;
+    border-top: 3px solid #18cfab;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gallery-category{
+    font-size: 20px;
+    color: rgba(138, 138, 138, 255);
+    text-align: center;
+    text-transform: capitalize;
+    align-self: center;
+}
+.gallery-title{
+    font-size: 23px;
+    color: rgba(24, 207, 171, 255);
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+
+}
+.gallery-icon{
+    align-self: center
+
+}
+
+
+.load-more{
+    text-align: center;
+    color: white;
+    width: 165px;
+    height: 60px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    margin: 100px 10px;
+    padding: 23px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+}
+.load-more::before{
+    content: '+';
+    font-weight: bold;
+    font-size: 30px;
+    width: 16px;
+    position: absolute;
+    height: 16px;
+    top: 14px;
+    left: 12px;
+    color: #fbfafa;
+}
+
+
+footer{
+    background-color: #22353f;
+}
+footer p{
+    font-size: 14px;
+    color: rgba(174, 174, 174, 255);
+    text-align: center;
+    padding: 45px;
+}
+footer span{
+    color: #18cfab;
+}
